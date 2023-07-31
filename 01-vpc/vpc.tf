@@ -18,6 +18,7 @@ module "vpc" {
   enable_nat_gateway = true
   single_nat_gateway = true
   enable_vpn_gateway = true
+  #enable_dns_hostnames = true
 
   # Tags to be added to resources
   public_subnet_tags = {
